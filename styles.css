@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    height: 1100 px;
+    color: white;
+}
+.main{
+    background-image: url(image/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.button{
+    height: 25px;
+    width: 100px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.button:active{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.summary{
+    margin-left: 50px;
+    margin-top: 350px;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    width: 80%;
+}
+.image:hover{
+    border: 2px solid white;
+    width: 100%;
+}
